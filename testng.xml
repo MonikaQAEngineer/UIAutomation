@@ -2,13 +2,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-    <classes>
-      <class name="scripts.InvalidLogin"/>
-      <class name="scripts.NavigateToMusic"/>
-      <class name="scripts.AddToCart"/>
-      <class name="scripts.ClickHomepageProducts"/>
-      <class name="scripts.ElectronicsCategory"/>
-      <class name="scripts.ChangeCountryToIndia"/>
-    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
